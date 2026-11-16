@@ -15,6 +15,7 @@
 //      reads.
 //
 // main.ts imports its own server and nothing else: no package, no Node built-in, no model call.
+// Authorship note: this lifecycle file is the kit starter's, kept verbatim — the forge itself lives in app.ts; this file only wires it to the env.
 
 import { createApp } from './app.ts';
 
